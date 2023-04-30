@@ -1,0 +1,21 @@
+/* main part*/
+.bloc {
+    display: flex;
+	justify-content: space-between;
+	margin: 2% 5%;
+	padding: 2%;
+}
+.card { background-color: antiquewhite;}
+
+.unitt-price { color: #195faf;
+
+        font-size: large;
+}
+.qute { color: rgb(204, 56, 19);}
+.card-title { color: rgb(2, 105, 71);
+            font-size: xx-large;
+		}
+.final-price { 
+	display: flex;
+	justify-content: center;
+}

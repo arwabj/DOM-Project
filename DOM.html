@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Panier d'achat</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="./DOM.css">
+
+    </head>
+    <body>
+        <!--header part-->
+        <header>
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand">Eucerin</a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </header>
+        <!--MAIN PART-->
+        <main>
+            <section class="bloc">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images-2.eucerin.com/~/media/eucerin%20relaunch%20media/eucerin/local/us/products/new-products-assets/face_rednes-reli_1.jpeg " class="card-img-top" alt=" cream night">
+                <div class="card-body">
+                  <h5 class="card-title">Redness Relief Night Creme</h5>
+                  <p class="card-text">Redness Relief Night Creme is a soothing, hydrating formula for sensitive and redness-prone skin.</p>
+                  
+                  <i class="fas fa-plus-circle"></i>
+                  <span class="qute">0</span>
+                  <i class="fas fa-minus-circle"></i>
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-heart"></i>
+                  <span class="unitt-price">200</span>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://images-1.eucerin.com/~/media/eucerin%20relaunch%20media/eucerin/local/us/2018/09/intensive-repair%20-lotion.jpeg?rx=0&ry=0&rw=988&rh=988" class="card-img-top" alt="lotion">
+                <div class="card-body">
+                  <h5 class="card-title">Intensive Repair Lotion</h5>
+                  <p class="card-text">Intensive care and relief for very dry skin, Eucerin Intensive Repair Lotion immediately restores skin’s radiance and delivers 24 hour hydration.</p>
+                  
+                  <i class="fas fa-plus-circle"></i>
+                  <span class="qute">0</span>
+                  <i class="fas fa-minus-circle"></i>
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-heart"></i>
+                  <span class="unitt-price">100</span>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://images-1.eucerin.com/~/media/eucerin%20relaunch%20media/eucerin/local/us/2018/09/part4/euc_sc_tube_14oz_fixup_150ppirgb_4374v1.jpeg?rx=0&ry=0&rw=961&rh=961" class="card-img-top" alt="calm cream">
+                <div class="card-body">
+                  <h5 class="card-title">Skin Calming Cream</h5>
+                  <p class="card-text">Eucerin’s Skin Calming Cream provides 24 hour moisture and long term control of dry, itchy skin.</p>
+                  
+                  <i class="fas fa-plus-circle"></i>
+                  <span class="qute">0</span>
+                  <i class="fas fa-minus-circle"></i>
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-heart"></i>
+                  <span class="unitt-price">150 </span>
+                </div>
+                
+              </div>
+            </section>
+            
+            <Div class="final-price">
+              <h4>Total</h4>
+              <i class="bi bi-cart4"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg>
+              <p id="total-price">0</p>
+          </Div>
+            
+        
+           
+          
+        </main>
+        <!--footer part-->
+        <footer></footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/529b8a145f.js" crossorigin="anonymous"></script>
+        <script src="DOM.js"></script>
+    </body>
+</html>
